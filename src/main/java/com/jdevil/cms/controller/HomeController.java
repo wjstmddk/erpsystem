@@ -12,7 +12,7 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String home() {
-		System.out.println("maincontroller===home");
+		System.out.println("maincontroller=>home");
 		return "home";
 	}
 	
